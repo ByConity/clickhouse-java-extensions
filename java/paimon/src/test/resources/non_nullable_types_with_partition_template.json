@@ -1,0 +1,155 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "col_tinyint",
+      "type": "tinyint"
+    },
+    {
+      "name": "col_smallint",
+      "type": "SMALLINT"
+    },
+    {
+      "name": "col_int",
+      "type": "Int"
+    },
+    {
+      "name": "col_bigint",
+      "type": "BIGint"
+    },
+    {
+      "name": "col_float",
+      "type": " FLOAT"
+    },
+    {
+      "name": "col_double",
+      "type": "DOUBLE "
+    },
+    {
+      "name": "col_decimal",
+      "type": " DECIMAL(10, 2) "
+    },
+    {
+      "name": "col_date",
+      "type": "Date"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "col_char",
+      "type": "CHAR( 10)"
+    },
+    {
+      "name": "col_varchar",
+      "type": "VARCHAR(50)"
+    },
+    {
+      "name": "col_binary",
+      "type": "BINARY(50)"
+    },
+    {
+      "name": "col_varbinary",
+      "type": "VARBINARY(128)"
+    },
+    {
+      "name": "col_array_boolean",
+      "type": "ARRAY<BOOLEAN>"
+    },
+    {
+      "name": "col_array_tinyint",
+      "type": "ARRAY<TINYINT>"
+    },
+    {
+      "name": "col_array_smallint",
+      "type": "ARRAY<SMALLINT>"
+    },
+    {
+      "name": "col_array_int",
+      "type": "ARRAY<INT>"
+    },
+    {
+      "name": "col_array_bigint",
+      "type": "ARRAY<BIGINT>"
+    },
+    {
+      "name": "col_array_float",
+      "type": "ARRAY<FLOAT>"
+    },
+    {
+      "name": "col_array_double",
+      "type": "ARRAY<DOUBLE>"
+    },
+    {
+      "name": "col_array_decimal",
+      "type": "ARRAY<decimal(32,8)>"
+    },
+    {
+      "name": "col_array_date",
+      "type": "ARRAY<DATE>"
+    },
+    {
+      "name": "col_array_timestamp",
+      "type": "ARRAY<timestamp>"
+    },
+    {
+      "name": "col_array_char",
+      "type": "ARRAY<Char(64)>"
+    },
+    {
+      "name": "col_array_varchar",
+      "type": "ARRAY<Varchar(128)>"
+    },
+    {
+      "name": "col_array_binary",
+      "type": "ARRAY<binary(128)>"
+    },
+    {
+      "name": "col_array_varbinary",
+      "type": "ARRAY<varbinary(256)>"
+    },
+    {
+      "name": "col_map",
+      "type": "MAP<VARCHAR(50), INT>"
+    },
+    {
+      "name": "col_struct",
+      "type": "Row<field_smallint|smallint, field_varchar|VARCHAR(50), field_timestamp|timestamp, field_decimal|decimal(28,6), field_varbinary|varbinary(64)>"
+    },
+    {
+      "name": "col_nestedarray",
+      "type": "ARRAY<MAP<VARCHAR(100), Row<field_tinyint|tinyint, field_char|CHAR(50)>>>"
+    },
+    {
+      "name": "col_nestedmap",
+      "type": "MAP<INT, ARRAY<MAP<VARCHAR(100), Row<field_boolean|boolean, field_timestamp|timestamp>>>>"
+    },
+    {
+      "name": "col_nestedstruct",
+      "type": "Row<field_array|ARRAY<Row<field_bigint|bigint>>,field_map|map<char(16), row<field_date|date>>>"
+    },
+    {
+      "name": "par_int",
+      "type": "int"
+    },
+    {
+      "name": "par_varchar",
+      "type": "varchar(16)"
+    },
+    {
+      "name": "par_decimal",
+      "type": "decimal(8,2)"
+    }
+  ],
+  "partitionKeys": [
+    "par_int",
+    "par_varchar",
+    "par_decimal"
+  ]
+}

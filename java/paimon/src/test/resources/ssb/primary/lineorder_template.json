@@ -1,0 +1,82 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "lo_orderkey",
+      "type": "int"
+    },
+    {
+      "name": "lo_linenumber",
+      "type": "int"
+    },
+    {
+      "name": "lo_custkey",
+      "type": "int"
+    },
+    {
+      "name": "lo_partkey",
+      "type": "int"
+    },
+    {
+      "name": "lo_suppkey",
+      "type": "int"
+    },
+    {
+      "name": "lo_orderdate",
+      "type": "date"
+    },
+    {
+      "name": "lo_orderpriority",
+      "type": "varchar(16)"
+    },
+    {
+      "name": "lo_shippriority",
+      "type": "int"
+    },
+    {
+      "name": "lo_quantity",
+      "type": "int"
+    },
+    {
+      "name": "lo_extendedprice",
+      "type": "int"
+    },
+    {
+      "name": "lo_ordtotalprice",
+      "type": "int"
+    },
+    {
+      "name": "lo_discount",
+      "type": "int"
+    },
+    {
+      "name": "lo_revenue",
+      "type": "int"
+    },
+    {
+      "name": "lo_supplycost",
+      "type": "int"
+    },
+    {
+      "name": "lo_tax",
+      "type": "int"
+    },
+    {
+      "name": "lo_commitdate",
+      "type": "date"
+    },
+    {
+      "name": "lo_shipmode",
+      "type": "varchar(11)"
+    }
+  ],
+  "primaryKeys": [
+    "lo_orderkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 3
+  }
+}

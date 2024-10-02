@@ -1,0 +1,82 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "d_datekey",
+      "type": "int"
+    },
+    {
+      "name": "d_date",
+      "type": "varchar(20)"
+    },
+    {
+      "name": "d_dayofweek",
+      "type": "varchar(10)"
+    },
+    {
+      "name": "d_month",
+      "type": "varchar(11)"
+    },
+    {
+      "name": "d_year",
+      "type": "int"
+    },
+    {
+      "name": "d_yearmonthnum",
+      "type": "int"
+    },
+    {
+      "name": "d_yearmonth",
+      "type": "varchar(9)"
+    },
+    {
+      "name": "d_daynuminweek",
+      "type": "int"
+    },
+    {
+      "name": "d_daynuminmonth",
+      "type": "int"
+    },
+    {
+      "name": "d_daynuminyear",
+      "type": "int"
+    },
+    {
+      "name": "d_monthnuminyear",
+      "type": "int"
+    },
+    {
+      "name": "d_weeknuminyear",
+      "type": "int"
+    },
+    {
+      "name": "d_sellingseason",
+      "type": "varchar(14)"
+    },
+    {
+      "name": "d_lastdayinweekfl",
+      "type": "int"
+    },
+    {
+      "name": "d_lastdayinmonthfl",
+      "type": "int"
+    },
+    {
+      "name": "d_holidayfl",
+      "type": "int"
+    },
+    {
+      "name": "d_weekdayfl",
+      "type": "int"
+    }
+  ],
+  "primaryKeys": [
+    "d_datekey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ss_sold_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_sold_time_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_item_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_customer_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_cdemo_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_hdemo_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_addr_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_store_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_promo_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_ticket_number",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ss_quantity",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "ss_wholesale_cost",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_list_price",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_sales_price",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_ext_discount_amt",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_ext_sales_price",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_ext_wholesale_cost",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_ext_list_price",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_ext_tax",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_coupon_amt",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_net_paid",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_net_paid_inc_tax",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "ss_net_profit",
+      "type": "Nullable(decimal(7, 2))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

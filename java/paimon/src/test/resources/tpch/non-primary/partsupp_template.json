@@ -1,0 +1,31 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ps_partkey",
+      "type": "bigint"
+    },
+    {
+      "name": "ps_suppkey",
+      "type": "bigint"
+    },
+    {
+      "name": "ps_availqty",
+      "type": "int"
+    },
+    {
+      "name": "ps_supplycost",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "ps_comment",
+      "type": "varchar(199)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

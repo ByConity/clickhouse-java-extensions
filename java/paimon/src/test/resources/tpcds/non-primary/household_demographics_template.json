@@ -1,0 +1,31 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "hd_demo_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "hd_income_band_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "hd_buy_potential",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "hd_dep_count",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "hd_vehicle_count",
+      "type": "Nullable(int)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

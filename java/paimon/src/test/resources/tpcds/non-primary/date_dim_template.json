@@ -1,0 +1,123 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "d_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "d_date_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "d_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "d_month_seq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_week_seq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_quarter_seq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_year",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_dow",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_moy",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_dom",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_qoy",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_fy_year",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_fy_quarter_seq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_fy_week_seq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_day_name",
+      "type": "Nullable(char(9))"
+    },
+    {
+      "name": "d_quarter_name",
+      "type": "Nullable(char(6))"
+    },
+    {
+      "name": "d_holiday",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_weekend",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_following_holiday",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_first_dom",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_last_dom",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_same_day_ly",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_same_day_lq",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "d_current_day",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_current_week",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_current_month",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_current_quarter",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "d_current_year",
+      "type": "Nullable(char(1))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

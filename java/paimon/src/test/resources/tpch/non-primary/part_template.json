@@ -1,0 +1,47 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "p_partkey",
+      "type": "bigint"
+    },
+    {
+      "name": "p_name",
+      "type": "varchar(55)"
+    },
+    {
+      "name": "p_mfgr",
+      "type": "varchar(25)"
+    },
+    {
+      "name": "p_brand",
+      "type": "varchar(10)"
+    },
+    {
+      "name": "p_type",
+      "type": "varchar(25)"
+    },
+    {
+      "name": "p_size",
+      "type": "int"
+    },
+    {
+      "name": "p_container",
+      "type": "varchar(10)"
+    },
+    {
+      "name": "p_retailprice",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "p_comment",
+      "type": "varchar(23)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

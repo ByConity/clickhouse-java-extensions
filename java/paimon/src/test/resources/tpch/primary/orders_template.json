@@ -1,0 +1,50 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "o_orderkey",
+      "type": "bigint"
+    },
+    {
+      "name": "o_custkey",
+      "type": "bigint"
+    },
+    {
+      "name": "o_orderstatus",
+      "type": "varchar(1)"
+    },
+    {
+      "name": "o_totalprice",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "o_orderdate",
+      "type": "date"
+    },
+    {
+      "name": "o_orderpriority",
+      "type": "varchar(15)"
+    },
+    {
+      "name": "o_clerk",
+      "type": "varchar(15)"
+    },
+    {
+      "name": "o_shippriority",
+      "type": "int"
+    },
+    {
+      "name": "o_comment",
+      "type": "varchar(79)"
+    }
+  ],
+  "primaryKeys": [
+    "o_orderkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

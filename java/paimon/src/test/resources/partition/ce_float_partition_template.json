@@ -1,0 +1,18 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_float",
+      "type": "nullable( FLOAT)"
+    },
+    {
+      "name": "par_double",
+      "type": "nullable(DOUBLE )"
+    }
+  ],
+  "partitionKeys": [
+    "par_float",
+    "par_double"
+  ]
+}

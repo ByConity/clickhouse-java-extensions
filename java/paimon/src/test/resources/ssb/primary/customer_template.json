@@ -1,0 +1,46 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "c_custkey",
+      "type": "int"
+    },
+    {
+      "name": "c_name",
+      "type": "varchar(26)"
+    },
+    {
+      "name": "c_address",
+      "type": "varchar(41)"
+    },
+    {
+      "name": "c_city",
+      "type": "varchar(11)"
+    },
+    {
+      "name": "c_nation",
+      "type": "varchar(16)"
+    },
+    {
+      "name": "c_region",
+      "type": "varchar(13)"
+    },
+    {
+      "name": "c_phone",
+      "type": "varchar(16)"
+    },
+    {
+      "name": "c_mktsegment",
+      "type": "varchar(11)"
+    }
+  ],
+  "primaryKeys": [
+    "c_custkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

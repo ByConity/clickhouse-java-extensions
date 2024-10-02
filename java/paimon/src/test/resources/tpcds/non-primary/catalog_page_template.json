@@ -1,0 +1,47 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "cp_catalog_page_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "cp_catalog_page_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "cp_start_date_sk",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cp_end_date_sk",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cp_department",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "cp_catalog_number",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cp_catalog_page_number",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cp_description",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "cp_type",
+      "type": "Nullable(varchar(100))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

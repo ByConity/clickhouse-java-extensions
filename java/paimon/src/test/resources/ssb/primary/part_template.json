@@ -1,0 +1,50 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "p_partkey",
+      "type": "int"
+    },
+    {
+      "name": "p_name",
+      "type": "varchar(23)"
+    },
+    {
+      "name": "p_mfgr",
+      "type": "varchar(7)"
+    },
+    {
+      "name": "p_category",
+      "type": "varchar(8)"
+    },
+    {
+      "name": "p_brand",
+      "type": "varchar(10)"
+    },
+    {
+      "name": "p_color",
+      "type": "varchar(12)"
+    },
+    {
+      "name": "p_type",
+      "type": "varchar(26)"
+    },
+    {
+      "name": "p_size",
+      "type": "int"
+    },
+    {
+      "name": "p_container",
+      "type": "varchar(11)"
+    }
+  ],
+  "primaryKeys": [
+    "p_partkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

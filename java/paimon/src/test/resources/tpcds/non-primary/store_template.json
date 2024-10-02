@@ -1,0 +1,127 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "s_store_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "s_store_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "s_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "s_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "s_closed_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "s_store_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "s_number_employees",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "s_floor_space",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "s_hours",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "s_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "s_market_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "s_geography_class",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "s_market_desc",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "s_market_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "s_division_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "s_division_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "s_company_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "s_company_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "s_street_number",
+      "type": "Nullable(varchar(10))"
+    },
+    {
+      "name": "s_street_name",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "s_street_type",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "s_suite_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "s_city",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "s_county",
+      "type": "Nullable(varchar(30))"
+    },
+    {
+      "name": "s_state",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "s_zip",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "s_country",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "s_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "s_tax_precentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

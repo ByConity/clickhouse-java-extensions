@@ -1,0 +1,67 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "w_warehouse_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "w_warehouse_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "w_warehouse_name",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "w_warehouse_sq_ft",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "w_street_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "w_street_name",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "w_street_type",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "w_suite_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "w_city",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "w_county",
+      "type": "Nullable(varchar(30))"
+    },
+    {
+      "name": "w_state",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "w_zip",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "w_country",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "w_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

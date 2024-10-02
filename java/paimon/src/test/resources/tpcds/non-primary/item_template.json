@@ -1,0 +1,99 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "i_item_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "i_item_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "i_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "i_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "i_item_desc",
+      "type": "Nullable(varchar(200))"
+    },
+    {
+      "name": "i_current_price",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "i_wholesale_cost",
+      "type": "Nullable(decimal(7, 2))"
+    },
+    {
+      "name": "i_brand_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "i_brand",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "i_class_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "i_class",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "i_category_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "i_category",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "i_manufact_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "i_manufact",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "i_size",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "i_formulation",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "i_color",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "i_units",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "i_container",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "i_manager_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "i_product_name",
+      "type": "Nullable(char(50))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

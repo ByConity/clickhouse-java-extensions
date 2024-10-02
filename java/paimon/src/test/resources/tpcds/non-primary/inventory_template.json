@@ -1,0 +1,27 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "inv_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "inv_item_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "inv_warehouse_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "inv_quantity_on_hand",
+      "type": "Nullable(int)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}
