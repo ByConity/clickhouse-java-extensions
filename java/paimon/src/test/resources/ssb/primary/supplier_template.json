@@ -1,0 +1,42 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "s_suppkey",
+      "type": "int"
+    },
+    {
+      "name": "s_name",
+      "type": "varchar(26)"
+    },
+    {
+      "name": "s_address",
+      "type": "varchar(26)"
+    },
+    {
+      "name": "s_city",
+      "type": "varchar(11)"
+    },
+    {
+      "name": "s_nation",
+      "type": "varchar(16)"
+    },
+    {
+      "name": "s_region",
+      "type": "varchar(13)"
+    },
+    {
+      "name": "s_phone",
+      "type": "varchar(16)"
+    }
+  ],
+  "primaryKeys": [
+    "s_suppkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

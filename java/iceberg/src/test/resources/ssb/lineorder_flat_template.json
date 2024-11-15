@@ -1,0 +1,161 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "lo_orderkey",
+      "type": "integer"
+    },
+    {
+      "name": "lo_linenumber",
+      "type": "integer"
+    },
+    {
+      "name": "lo_custkey",
+      "type": "integer"
+    },
+    {
+      "name": "lo_partkey",
+      "type": "integer"
+    },
+    {
+      "name": "lo_suppkey",
+      "type": "integer"
+    },
+    {
+      "name": "lo_orderdate",
+      "type": "date"
+    },
+    {
+      "name": "lo_orderpriority",
+      "type": "String"
+    },
+    {
+      "name": "lo_shippriority",
+      "type": "integer"
+    },
+    {
+      "name": "lo_quantity",
+      "type": "integer"
+    },
+    {
+      "name": "lo_extendedprice",
+      "type": "integer"
+    },
+    {
+      "name": "lo_ordtotalprice",
+      "type": "integer"
+    },
+    {
+      "name": "lo_discount",
+      "type": "integer"
+    },
+    {
+      "name": "lo_revenue",
+      "type": "integer"
+    },
+    {
+      "name": "lo_supplycost",
+      "type": "integer"
+    },
+    {
+      "name": "lo_tax",
+      "type": "integer"
+    },
+    {
+      "name": "lo_commitdate",
+      "type": "date"
+    },
+    {
+      "name": "lo_shipmode",
+      "type": "String"
+    },
+    {
+      "name": "c_name",
+      "type": "String"
+    },
+    {
+      "name": "c_address",
+      "type": "String"
+    },
+    {
+      "name": "c_city",
+      "type": "String"
+    },
+    {
+      "name": "c_nation",
+      "type": "String"
+    },
+    {
+      "name": "c_region",
+      "type": "String"
+    },
+    {
+      "name": "c_phone",
+      "type": "String"
+    },
+    {
+      "name": "c_mktsegment",
+      "type": "String"
+    },
+    {
+      "name": "s_name",
+      "type": "String"
+    },
+    {
+      "name": "s_address",
+      "type": "String"
+    },
+    {
+      "name": "s_city",
+      "type": "String"
+    },
+    {
+      "name": "s_nation",
+      "type": "String"
+    },
+    {
+      "name": "s_region",
+      "type": "String"
+    },
+    {
+      "name": "s_phone",
+      "type": "String"
+    },
+    {
+      "name": "p_name",
+      "type": "String"
+    },
+    {
+      "name": "p_mfgr",
+      "type": "String"
+    },
+    {
+      "name": "p_category",
+      "type": "String"
+    },
+    {
+      "name": "p_brand",
+      "type": "String"
+    },
+    {
+      "name": "p_color",
+      "type": "String"
+    },
+    {
+      "name": "p_type",
+      "type": "String"
+    },
+    {
+      "name": "p_size",
+      "type": "integer"
+    },
+    {
+      "name": "p_container",
+      "type": "String"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

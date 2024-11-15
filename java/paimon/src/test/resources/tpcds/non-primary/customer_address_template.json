@@ -1,0 +1,63 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ca_address_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "ca_address_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "ca_street_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "ca_street_name",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "ca_street_type",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "ca_suite_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "ca_city",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "ca_county",
+      "type": "Nullable(varchar(30))"
+    },
+    {
+      "name": "ca_state",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "ca_zip",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "ca_country",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "ca_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "ca_location_type",
+      "type": "Nullable(char(20))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

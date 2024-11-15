@@ -1,0 +1,35 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "sm_ship_mode_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "sm_ship_mode_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "sm_type",
+      "type": "Nullable(char(30))"
+    },
+    {
+      "name": "sm_code",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "sm_carrier",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "sm_contract",
+      "type": "Nullable(char(20))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

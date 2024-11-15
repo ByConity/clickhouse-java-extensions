@@ -1,0 +1,37 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "s_suppkey",
+      "type": "integer"
+    },
+    {
+      "name": "s_name",
+      "type": "String"
+    },
+    {
+      "name": "s_address",
+      "type": "String"
+    },
+    {
+      "name": "s_city",
+      "type": "String"
+    },
+    {
+      "name": "s_nation",
+      "type": "String"
+    },
+    {
+      "name": "s_region",
+      "type": "String"
+    },
+    {
+      "name": "s_phone",
+      "type": "String"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

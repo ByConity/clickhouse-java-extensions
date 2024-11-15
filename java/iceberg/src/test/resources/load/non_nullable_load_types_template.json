@@ -1,0 +1,50 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "col_integer",
+      "type": "Integer"
+    },
+    {
+      "name": "col_long",
+      "type": "LonG"
+    },
+    {
+      "name": "col_float",
+      "type": " FLOAT"
+    },
+    {
+      "name": "col_double",
+      "type": "DOUBLE "
+    },
+    {
+      "name": "col_decimal",
+      "type": " DECIMAL(10, 2) "
+    },
+    {
+      "name": "col_date",
+      "type": "Date"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "col_string",
+      "type": "string"
+    },
+    {
+      "name": "col_fixed",
+      "type": "fixed(50)"
+    },
+    {
+      "name": "col_rbinary",
+      "type": "BINARY"
+    }
+  ]
+}

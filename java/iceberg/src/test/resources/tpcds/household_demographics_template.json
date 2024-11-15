@@ -1,0 +1,29 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "hd_demo_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "hd_income_band_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "hd_buy_potential",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "hd_dep_count",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "hd_vehicle_count",
+      "type": "Nullable(integer)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

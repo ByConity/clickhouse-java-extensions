@@ -1,0 +1,45 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "cp_catalog_page_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "cp_catalog_page_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cp_start_date_sk",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cp_end_date_sk",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cp_department",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cp_catalog_number",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cp_catalog_page_number",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cp_description",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cp_type",
+      "type": "Nullable(string)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

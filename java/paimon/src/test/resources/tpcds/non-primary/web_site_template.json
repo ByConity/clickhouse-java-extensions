@@ -1,0 +1,115 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "web_site_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "web_site_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "web_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "web_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "web_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "web_open_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "web_close_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "web_class",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "web_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "web_mkt_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "web_mkt_class",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "web_mkt_desc",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "web_market_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "web_company_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "web_company_name",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "web_street_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "web_street_name",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "web_street_type",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "web_suite_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "web_city",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "web_county",
+      "type": "Nullable(varchar(30))"
+    },
+    {
+      "name": "web_state",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "web_zip",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "web_country",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "web_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "web_tax_percentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

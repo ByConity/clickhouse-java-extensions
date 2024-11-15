@@ -1,0 +1,41 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "c_custkey",
+      "type": "integer"
+    },
+    {
+      "name": "c_name",
+      "type": "String"
+    },
+    {
+      "name": "c_address",
+      "type": "String"
+    },
+    {
+      "name": "c_city",
+      "type": "String"
+    },
+    {
+      "name": "c_nation",
+      "type": "String"
+    },
+    {
+      "name": "c_region",
+      "type": "String"
+    },
+    {
+      "name": "c_phone",
+      "type": "String"
+    },
+    {
+      "name": "c_mktsegment",
+      "type": "String"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "nullable(BOOLEAN)"
+    },
+    {
+      "name": "col_tinyint",
+      "type": "NULLABLE(tinyint)"
+    },
+    {
+      "name": "col_smallint",
+      "type": "nullAble(SMALLINT)"
+    },
+    {
+      "name": "col_int",
+      "type": "nullable( Int)"
+    },
+    {
+      "name": "col_bigint",
+      "type": "nullable(BIGinT)"
+    },
+    {
+      "name": "col_float",
+      "type": "nullable( FLOAT)"
+    },
+    {
+      "name": "col_double",
+      "type": "nullable(DOUBLE )"
+    },
+    {
+      "name": "col_decimal",
+      "type": "nullable( DECIMAL(10, 2) )"
+    },
+    {
+      "name": "col_date",
+      "type": "nullable (Date)"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "nullable (TIMESTAMP)"
+    },
+    {
+      "name": "col_char",
+      "type": "nullable (CHAR( 10))"
+    },
+    {
+      "name": "col_varchar",
+      "type": "nullable(VARCHAR(50))"
+    },
+    {
+      "name": "col_binary",
+      "type": "nullable(BINARY(50))"
+    },
+    {
+      "name": "col_varbinary",
+      "type": "nullable(VARBINARY(128))"
+    },
+    {
+      "name": "col_array_boolean",
+      "type": "nullable(ARRAY<Nullable(BOOLEAN)>)"
+    },
+    {
+      "name": "col_array_tinyint",
+      "type": "nullable(ARRAY<Nullable(TINYINT)>)"
+    },
+    {
+      "name": "col_array_smallint",
+      "type": "nullable(ARRAY<Nullable(SMALLINT)>)"
+    },
+    {
+      "name": "col_array_int",
+      "type": "nullable(ARRAY<Nullable(INT)>)"
+    },
+    {
+      "name": "col_array_bigint",
+      "type": "nullable(ARRAY<Nullable(BIGINT)>)"
+    },
+    {
+      "name": "col_array_float",
+      "type": "nullable(ARRAY<Nullable(FLOAT)>)"
+    },
+    {
+      "name": "col_array_double",
+      "type": "nullable(ARRAY<Nullable(DOUBLE)>)"
+    },
+    {
+      "name": "col_array_decimal",
+      "type": "nullable(ARRAY<Nullable(decimal(32,8))>)"
+    },
+    {
+      "name": "col_array_date",
+      "type": "nullable(ARRAY<Nullable(DATE)>)"
+    },
+    {
+      "name": "col_array_timestamp",
+      "type": "nullable(ARRAY<Nullable(timestamp)>)"
+    },
+    {
+      "name": "col_array_char",
+      "type": "nullable(ARRAY<Nullable(Char(64))>)"
+    },
+    {
+      "name": "col_array_varchar",
+      "type": "nullable(ARRAY<Nullable(Varchar(128))>)"
+    },
+    {
+      "name": "col_array_binary",
+      "type": "nullable(ARRAY<Nullable(binary(128))>)"
+    },
+    {
+      "name": "col_array_varbinary",
+      "type": "nullable(ARRAY<Nullable(varbinary(256))>)"
+    },
+    {
+      "name": "col_map",
+      "type": "nullable(MAP<nullable(VARCHAR(50)), nullable(INT)>)"
+    },
+    {
+      "name": "col_struct",
+      "type": "nullable(Row<field_smallint|nullable(smallint), field_varchar|nullable(VARCHAR(50)), field_timestamp|nullable(timestamp), field_decimal|nullable(decimal(28,6)), field_varbinary|nullable(varbinary(64))>)"
+    },
+    {
+      "name": "col_nestedarray",
+      "type": "nullable(ARRAY<nullable(MAP<nullable(VARCHAR(100)), nullable(Row<field_tinyint|nullable(tinyint), field_char|nullable(CHAR(50))>)>)>)"
+    },
+    {
+      "name": "col_nestedmap",
+      "type": "nullable(MAP<nullable(INT), nullable(ARRAY<nullable(MAP<nullable(VARCHAR(100)), nullable(Row<field_boolean|nullable(boolean), field_timestamp|nullable(timestamp)>)>)>)>)"
+    },
+    {
+      "name": "col_nestedstruct",
+      "type": "nullable(Row<field_array|nullable(ARRAY<nullable(Row<field_bigint|nullable(bigint)>)>),field_map|nullable(map<char(16), nullable(row<field_date|nullable(date)>)>)>)"
+    }
+  ]
+}

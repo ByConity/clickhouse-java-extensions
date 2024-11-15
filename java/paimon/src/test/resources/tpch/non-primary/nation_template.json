@@ -1,0 +1,27 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "n_nationkey",
+      "type": "bigint"
+    },
+    {
+      "name": "n_name",
+      "type": "varchar(25)"
+    },
+    {
+      "name": "n_regionkey",
+      "type": "bigint"
+    },
+    {
+      "name": "n_comment",
+      "type": "varchar(152)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

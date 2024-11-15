@@ -1,0 +1,135 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "cc_call_center_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "cc_call_center_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "cc_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "cc_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "cc_closed_date_sk",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_open_date_sk",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "cc_class",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "cc_employees",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_sq_ft",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_hours",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "cc_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "cc_mkt_id",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_mkt_class",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "cc_mkt_desc",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "cc_market_manager",
+      "type": "Nullable(varchar(40))"
+    },
+    {
+      "name": "cc_division",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_division_name",
+      "type": "Nullable(varchar(50))"
+    },
+    {
+      "name": "cc_company",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "cc_company_name",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "cc_street_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "cc_street_name",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "cc_street_type",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "cc_suite_number",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "cc_city",
+      "type": "Nullable(varchar(60))"
+    },
+    {
+      "name": "cc_county",
+      "type": "Nullable(varchar(30))"
+    },
+    {
+      "name": "cc_state",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "cc_zip",
+      "type": "Nullable(char(10))"
+    },
+    {
+      "name": "cc_country",
+      "type": "Nullable(varchar(20))"
+    },
+    {
+      "name": "cc_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "cc_tax_percentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

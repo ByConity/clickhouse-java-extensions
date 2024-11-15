@@ -1,0 +1,45 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "p_partkey",
+      "type": "integer"
+    },
+    {
+      "name": "p_name",
+      "type": "String"
+    },
+    {
+      "name": "p_mfgr",
+      "type": "String"
+    },
+    {
+      "name": "p_category",
+      "type": "String"
+    },
+    {
+      "name": "p_brand",
+      "type": "String"
+    },
+    {
+      "name": "p_color",
+      "type": "String"
+    },
+    {
+      "name": "p_type",
+      "type": "String"
+    },
+    {
+      "name": "p_size",
+      "type": "integer"
+    },
+    {
+      "name": "p_container",
+      "type": "String"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

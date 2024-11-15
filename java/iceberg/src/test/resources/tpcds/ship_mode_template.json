@@ -1,0 +1,33 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "sm_ship_mode_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "sm_ship_mode_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "sm_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "sm_code",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "sm_carrier",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "sm_contract",
+      "type": "Nullable(string)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

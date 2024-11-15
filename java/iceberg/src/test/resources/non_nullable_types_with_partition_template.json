@@ -1,0 +1,139 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "col_integer",
+      "type": " Integer"
+    },
+    {
+      "name": "col_long",
+      "type": "LonG"
+    },
+    {
+      "name": "col_float",
+      "type": " FLOAT"
+    },
+    {
+      "name": "col_double",
+      "type": "DOUBLE "
+    },
+    {
+      "name": "col_decimal",
+      "type": " DECIMAL(10, 2) "
+    },
+    {
+      "name": "col_date",
+      "type": " Date"
+    },
+    {
+      "name": "col_timestamp",
+      "type": " TIMESTAMP"
+    },
+    {
+      "name": "col_uuid",
+      "type": " UUiD"
+    },
+    {
+      "name": "col_string",
+      "type": " STRING"
+    },
+    {
+      "name": "col_fixed",
+      "type": "Fixed(50)"
+    },
+    {
+      "name": "col_binary",
+      "type": "binary"
+    },
+    {
+      "name": "col_list_boolean",
+      "type": "LIST<BOOLEAN>"
+    },
+    {
+      "name": "col_list_integer",
+      "type": "LIST<INTEGER>"
+    },
+    {
+      "name": "col_list_long",
+      "type": "LIST<LONG>"
+    },
+    {
+      "name": "col_list_float",
+      "type": "LIST<FLOAT>"
+    },
+    {
+      "name": "col_list_double",
+      "type": "LIST<DOUBLE>"
+    },
+    {
+      "name": "col_list_decimal",
+      "type": "LIST<decimal(32,8)>"
+    },
+    {
+      "name": "col_list_date",
+      "type": "LIST<DATE>"
+    },
+    {
+      "name": "col_list_timestamp",
+      "type": "LIST<timestamp>"
+    },
+    {
+      "name": "col_list_uuid",
+      "type": "LIST<UUID>"
+    },
+    {
+      "name": "col_list_string",
+      "type": "LIST<String>"
+    },
+    {
+      "name": "col_list_fixed",
+      "type": "LIST<fixed(128)>"
+    },
+    {
+      "name": "col_list_binary",
+      "type": "LIST<binary>"
+    },
+    {
+      "name": "col_map",
+      "type": "MAP<String, INTeger>"
+    },
+    {
+      "name": "col_struct",
+      "type": "Struct<field_integer|integer, field_string|String, field_timestamp|timestamp, field_decimal|decimal(28,6), field_binary|binary>"
+    },
+    {
+      "name": "col_nestedarray",
+      "type": "LIST<MAP<string, Struct<field_long|long, field_string|string>>>"
+    },
+    {
+      "name": "col_nestedmap",
+      "type": "MAP<INTEGER, LIST<MAP<string, Struct<field_boolean|boolean, field_timestamp|timestamp>>>>"
+    },
+    {
+      "name": "col_nestedstruct",
+      "type": "Struct<field_array|LIST<Struct<field_long|long>>,field_map|map<string, Struct<field_date|date>>>"
+    },
+    {
+      "name": "par_integer",
+      "type": "integer"
+    },
+    {
+      "name": "par_string",
+      "type": "string"
+    },
+    {
+      "name": "par_decimal",
+      "type": "decimal(8,2)"
+    }
+  ],
+  "partitionKeys": [
+    "par_integer",
+    "par_string",
+    "par_decimal"
+  ]
+}

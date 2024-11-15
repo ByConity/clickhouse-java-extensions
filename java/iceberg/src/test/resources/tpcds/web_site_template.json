@@ -1,0 +1,113 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "web_site_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "web_site_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "web_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "web_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_open_date_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "web_close_date_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "web_class",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_mkt_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "web_mkt_class",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_mkt_desc",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_market_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_company_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "web_company_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_street_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_street_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_street_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_suite_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_city",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_county",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_state",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_zip",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_country",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "web_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "web_tax_percentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

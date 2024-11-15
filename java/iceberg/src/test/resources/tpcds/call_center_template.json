@@ -1,0 +1,133 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "cc_call_center_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "cc_call_center_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "cc_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "cc_closed_date_sk",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_open_date_sk",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_class",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_employees",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_sq_ft",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_hours",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_mkt_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_mkt_class",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_mkt_desc",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_market_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_division",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_division_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_company",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cc_company_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_street_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_street_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_street_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_suite_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_city",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_county",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_state",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_zip",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_country",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cc_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "cc_tax_percentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

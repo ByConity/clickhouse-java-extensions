@@ -1,0 +1,21 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "r_reason_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "r_reason_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "r_reason_desc",
+      "type": "Nullable(string)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

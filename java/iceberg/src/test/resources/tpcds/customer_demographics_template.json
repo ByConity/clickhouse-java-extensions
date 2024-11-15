@@ -1,0 +1,45 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "cd_demo_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "cd_gender",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cd_marital_status",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cd_education_status",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cd_purchase_estimate",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cd_credit_rating",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "cd_dep_count",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cd_dep_employed_count",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "cd_dep_college_count",
+      "type": "Nullable(integer)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

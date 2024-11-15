@@ -1,0 +1,23 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "r_reason_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "r_reason_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "r_reason_desc",
+      "type": "Nullable(char(100))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

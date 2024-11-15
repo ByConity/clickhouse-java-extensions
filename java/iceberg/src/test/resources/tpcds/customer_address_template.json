@@ -1,0 +1,61 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ca_address_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "ca_address_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_street_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_street_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_street_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_suite_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_city",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_county",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_state",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_zip",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_country",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "ca_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "ca_location_type",
+      "type": "Nullable(string)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

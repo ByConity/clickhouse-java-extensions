@@ -1,0 +1,121 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "d_date_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "d_date_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "d_month_seq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_week_seq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_quarter_seq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_year",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_dow",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_moy",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_dom",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_qoy",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_fy_year",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_fy_quarter_seq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_fy_week_seq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_day_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_quarter_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_holiday",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_weekend",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_following_holiday",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_first_dom",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_last_dom",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_same_day_ly",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_same_day_lq",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "d_current_day",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_current_week",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_current_month",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_current_quarter",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "d_current_year",
+      "type": "Nullable(string)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

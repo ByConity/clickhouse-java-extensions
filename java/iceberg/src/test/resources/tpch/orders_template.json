@@ -1,0 +1,45 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "o_orderkey",
+      "type": "long"
+    },
+    {
+      "name": "o_custkey",
+      "type": "long"
+    },
+    {
+      "name": "o_orderstatus",
+      "type": "string"
+    },
+    {
+      "name": "o_totalprice",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "o_orderdate",
+      "type": "date"
+    },
+    {
+      "name": "o_orderpriority",
+      "type": "string"
+    },
+    {
+      "name": "o_clerk",
+      "type": "string"
+    },
+    {
+      "name": "o_shippriority",
+      "type": "integer"
+    },
+    {
+      "name": "o_comment",
+      "type": "string"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

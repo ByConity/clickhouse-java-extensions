@@ -1,0 +1,67 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "wp_web_page_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "wp_web_page_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "wp_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "wp_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "wp_creation_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "wp_access_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "wp_autogen_flag",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "wp_customer_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "wp_url",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "wp_type",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "wp_char_count",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "wp_link_count",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "wp_image_count",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "wp_max_ad_count",
+      "type": "Nullable(int)"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

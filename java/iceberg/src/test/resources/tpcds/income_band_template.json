@@ -1,0 +1,21 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ib_income_band_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "ib_lower_bound",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "ib_upper_bound",
+      "type": "Nullable(integer)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

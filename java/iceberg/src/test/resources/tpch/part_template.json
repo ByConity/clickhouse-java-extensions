@@ -1,0 +1,45 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "p_partkey",
+      "type": "long"
+    },
+    {
+      "name": "p_name",
+      "type": "string"
+    },
+    {
+      "name": "p_mfgr",
+      "type": "string"
+    },
+    {
+      "name": "p_brand",
+      "type": "string"
+    },
+    {
+      "name": "p_type",
+      "type": "string"
+    },
+    {
+      "name": "p_size",
+      "type": "integer"
+    },
+    {
+      "name": "p_container",
+      "type": "string"
+    },
+    {
+      "name": "p_retailprice",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "p_comment",
+      "type": "string"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

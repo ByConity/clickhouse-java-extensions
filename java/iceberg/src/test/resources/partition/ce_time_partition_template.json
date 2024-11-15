@@ -1,0 +1,18 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_date",
+      "type": "nullable (Date)"
+    },
+    {
+      "name": "par_timestamp",
+      "type": "nullable (TIMESTAMP)"
+    }
+  ],
+  "partitionKeys": [
+    "par_date",
+    "par_timestamp"
+  ]
+}

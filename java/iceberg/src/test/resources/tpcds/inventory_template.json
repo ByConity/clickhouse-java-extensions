@@ -1,0 +1,25 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "inv_date_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "inv_item_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "inv_warehouse_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "inv_quantity_on_hand",
+      "type": "Nullable(integer)"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "s_store_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "s_store_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_rec_start_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "s_rec_end_date",
+      "type": "Nullable(date)"
+    },
+    {
+      "name": "s_closed_date_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "s_store_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_number_employees",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "s_floor_space",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "s_hours",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_market_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "s_geography_class",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_market_desc",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_market_manager",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_division_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "s_division_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_company_id",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "s_company_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_street_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_street_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_street_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_suite_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_city",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_county",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_state",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_zip",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_country",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "s_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    },
+    {
+      "name": "s_tax_precentage",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

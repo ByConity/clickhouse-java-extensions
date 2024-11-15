@@ -1,0 +1,13 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_boolean",
+      "type": "nullable(BOOLEAN)"
+    }
+  ],
+  "partitionKeys": [
+    "par_boolean"
+  ]
+}

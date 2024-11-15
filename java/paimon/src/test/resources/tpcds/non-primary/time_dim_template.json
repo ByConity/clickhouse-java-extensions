@@ -1,0 +1,51 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "t_time_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "t_time_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "t_time",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "t_hour",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "t_minute",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "t_second",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "t_am_pm",
+      "type": "Nullable(char(2))"
+    },
+    {
+      "name": "t_shift",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "t_sub_shift",
+      "type": "Nullable(char(20))"
+    },
+    {
+      "name": "t_meal_time",
+      "type": "Nullable(char(20))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

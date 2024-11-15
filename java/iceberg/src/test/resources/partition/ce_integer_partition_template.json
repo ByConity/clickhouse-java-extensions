@@ -1,0 +1,18 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_integer",
+      "type": "nullable( Integer)"
+    },
+    {
+      "name": "par_long",
+      "type": "nullable(lOnG)"
+    }
+  ],
+  "partitionKeys": [
+    "par_integer",
+    "par_long"
+  ]
+}

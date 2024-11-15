@@ -1,0 +1,71 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "nullable(BOOLEAN)"
+    },
+    {
+      "name": "col_integer",
+      "type": "nullable( Integer)"
+    },
+    {
+      "name": "col_long",
+      "type": "nullable(LoNg)"
+    },
+    {
+      "name": "col_float",
+      "type": "nullable( FLOAT)"
+    },
+    {
+      "name": "col_double",
+      "type": "nullable(DOUBLE )"
+    },
+    {
+      "name": "col_decimal",
+      "type": "nullable( DECIMAL(10, 2) )"
+    },
+    {
+      "name": "col_date",
+      "type": "nullable (Date)"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "nullable (TIMESTAMP)"
+    },
+    {
+      "name": "col_uuid",
+      "type": "nullable (uuid)"
+    },
+    {
+      "name": "col_string",
+      "type": "nullable(string)"
+    },
+    {
+      "name": "col_fixed",
+      "type": "nullable(fixed(16))"
+    },
+    {
+      "name": "col_binary",
+      "type": "nullable(binary)"
+    },
+    {
+      "name": "par_integer",
+      "type": "nullable(integer)"
+    },
+    {
+      "name": "par_string",
+      "type": "nullable(string)"
+    },
+    {
+      "name": "par_decimal",
+      "type": "nullable(decimal(8,2))"
+    }
+  ],
+  "partitionKeys": [
+    "par_integer",
+    "par_string",
+    "par_decimal"
+  ]
+}

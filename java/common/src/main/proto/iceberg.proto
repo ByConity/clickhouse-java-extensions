@@ -1,0 +1,69 @@
+syntax = "proto2";
+
+package DB.Protos.Iceberg;
+option java_package = "org.byconity.proto";
+option java_outer_classname = "IcebergMeta";
+
+message BooleanType {}
+message IntegerType {}
+message LongType {}
+message FloatType {}
+message DoubleType {}
+message DateType {}
+message TimestampType {}
+message StringType {}
+message UUIDType {}
+message FixedType {
+  required uint64 length = 1;
+}
+message BinaryType {}
+message DecimalType {
+  required uint32 precision = 1;
+  required uint32 scale = 2;
+}
+message ListType {
+  required Type elementType = 1;
+}
+message MapType {
+  required Type keyType = 1;
+  required Type valueType = 2;
+}
+message StructType {
+  repeated Field fields = 1;
+}
+
+message Type {
+  required bool is_nullable = 1;
+  optional BooleanType booleanType = 2;
+  optional IntegerType integerType = 3;
+  optional LongType longType = 4;
+  optional FloatType floatType = 5;
+  optional DoubleType doubleType = 6;
+  optional DateType dateType = 7;
+  optional TimestampType timestampType = 8;
+  optional StringType stringType = 9;
+  optional UUIDType UUIDType = 10;
+  optional FixedType fixedType = 11;
+  optional BinaryType BinaryType = 12;
+  optional DecimalType decimalType = 13;
+  optional ListType listType = 14;
+  optional MapType mapType = 15;
+  optional StructType structType = 16;
+}
+
+message Field {
+  required int32 id = 1;
+  required string name = 2;
+  required Type type = 3;
+}
+
+message Property {
+  required string name = 1;
+  required string value = 2;
+}
+
+message Schema {
+  repeated Field fields = 1;
+  repeated string partition_keys = 2;
+  repeated Property properties = 3;
+}

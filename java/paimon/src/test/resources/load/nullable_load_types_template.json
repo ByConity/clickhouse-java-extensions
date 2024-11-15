@@ -1,0 +1,62 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "nullable(BOOLEAN)"
+    },
+    {
+      "name": "col_tinyint",
+      "type": "NULLABLE(tinyint)"
+    },
+    {
+      "name": "col_smallint",
+      "type": "nullAble(SMALLINT)"
+    },
+    {
+      "name": "col_int",
+      "type": "nullable( Int)"
+    },
+    {
+      "name": "col_bigint",
+      "type": "nullable(BIGinT)"
+    },
+    {
+      "name": "col_float",
+      "type": "nullable( FLOAT)"
+    },
+    {
+      "name": "col_double",
+      "type": "nullable(DOUBLE )"
+    },
+    {
+      "name": "col_decimal",
+      "type": "nullable( DECIMAL(10, 2) )"
+    },
+    {
+      "name": "col_date",
+      "type": "nullable (Date)"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "nullable (TIMESTAMP)"
+    },
+    {
+      "name": "col_char",
+      "type": "nullable (CHAR( 10))"
+    },
+    {
+      "name": "col_varchar",
+      "type": "nullable(VARCHAR(50))"
+    },
+    {
+      "name": "col_binary",
+      "type": "nullable(BINARY(50))"
+    },
+    {
+      "name": "col_varbinary",
+      "type": "nullable(VARBINARY(128))"
+    }
+  ]
+}

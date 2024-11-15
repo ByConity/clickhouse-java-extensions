@@ -1,0 +1,48 @@
+syntax = "proto2";
+
+package DB.Protos;
+option java_package = "org.byconity.proto";
+option java_outer_classname = "LakeTypes";
+
+message StringKvMap
+{
+  required string key = 1;
+  required string value = 2;
+}
+message IntKvMap
+{
+  required string key = 1;
+  required string value = 2;
+
+}
+
+// TODO:: add more stats.
+message ColumnStats
+{
+  repeated IntKvMap column_size = 1;
+}
+
+
+message DataFileInfo
+{
+  required string path = 1;
+  required string format = 2;
+  required int64 record_count = 3;
+  required int64 file_size_in_bytes = 4;
+  required string partition_path = 5;
+  optional ColumnStats column_stats = 6;
+}
+
+
+
+message LakeSinkCommitInfo
+{
+  required bool is_overwrite = 1;
+  optional string staging_dir = 2;
+  repeated DataFileInfo data_file_info= 3;
+}
+
+message LakeSinkCommitInfos
+{
+  repeated LakeSinkCommitInfo commit_infos = 1;
+}

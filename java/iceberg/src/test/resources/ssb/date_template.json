@@ -1,0 +1,77 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "d_datekey",
+      "type": "integer"
+    },
+    {
+      "name": "d_date",
+      "type": "String"
+    },
+    {
+      "name": "d_dayofweek",
+      "type": "String"
+    },
+    {
+      "name": "d_month",
+      "type": "String"
+    },
+    {
+      "name": "d_year",
+      "type": "integer"
+    },
+    {
+      "name": "d_yearmonthnum",
+      "type": "integer"
+    },
+    {
+      "name": "d_yearmonth",
+      "type": "String"
+    },
+    {
+      "name": "d_daynuminweek",
+      "type": "integer"
+    },
+    {
+      "name": "d_daynuminmonth",
+      "type": "integer"
+    },
+    {
+      "name": "d_daynuminyear",
+      "type": "integer"
+    },
+    {
+      "name": "d_monthnuminyear",
+      "type": "integer"
+    },
+    {
+      "name": "d_weeknuminyear",
+      "type": "integer"
+    },
+    {
+      "name": "d_sellingseason",
+      "type": "String"
+    },
+    {
+      "name": "d_lastdayinweekfl",
+      "type": "integer"
+    },
+    {
+      "name": "d_lastdayinmonthfl",
+      "type": "integer"
+    },
+    {
+      "name": "d_holidayfl",
+      "type": "integer"
+    },
+    {
+      "name": "d_weekdayfl",
+      "type": "integer"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

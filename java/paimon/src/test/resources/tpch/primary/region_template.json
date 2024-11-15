@@ -1,0 +1,26 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "r_regionkey",
+      "type": "bigint"
+    },
+    {
+      "name": "r_name",
+      "type": "varchar(25)"
+    },
+    {
+      "name": "r_comment",
+      "type": "varchar(152)"
+    }
+  ],
+  "primaryKeys": [
+    "r_regionkey"
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

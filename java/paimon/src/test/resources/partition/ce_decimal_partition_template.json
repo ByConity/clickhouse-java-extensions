@@ -1,0 +1,23 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_decimal32",
+      "type": "nullable( DECIMAL(8, 1) )"
+    },
+    {
+      "name": "par_decimal64",
+      "type": "nullable( DECIMAL(15, 2) )"
+    },
+    {
+      "name": "par_decimal128",
+      "type": "nullable( DECIMAL(36, 5) )"
+    }
+  ],
+  "partitionKeys": [
+    "par_decimal32",
+    "par_decimal64",
+    "par_decimal128"
+  ]
+}

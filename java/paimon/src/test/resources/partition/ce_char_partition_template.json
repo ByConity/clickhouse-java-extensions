@@ -1,0 +1,18 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_char",
+      "type": "nullable (CHAR( 10))"
+    },
+    {
+      "name": "par_varchar",
+      "type": "nullable(VARCHAR(50))"
+    }
+  ],
+  "partitionKeys": [
+    "par_char",
+    "par_varchar"
+  ]
+}

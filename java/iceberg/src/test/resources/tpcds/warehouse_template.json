@@ -1,0 +1,65 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "w_warehouse_sk",
+      "type": "Nullable(long)"
+    },
+    {
+      "name": "w_warehouse_id",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_warehouse_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_warehouse_sq_ft",
+      "type": "Nullable(integer)"
+    },
+    {
+      "name": "w_street_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_street_name",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_street_type",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_suite_number",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_city",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_county",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_state",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_zip",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_country",
+      "type": "Nullable(string)"
+    },
+    {
+      "name": "w_gmt_offset",
+      "type": "Nullable(decimal(5, 2))"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

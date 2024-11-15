@@ -1,0 +1,122 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "col_boolean",
+      "type": "nullable(BOOLEAN)"
+    },
+    {
+      "name": "col_integer",
+      "type": "nullable( Integer)"
+    },
+    {
+      "name": "col_long",
+      "type": "nullable(LOnG)"
+    },
+    {
+      "name": "col_float",
+      "type": "nullable( FLOAT)"
+    },
+    {
+      "name": "col_double",
+      "type": "nullable(DOUBLE )"
+    },
+    {
+      "name": "col_decimal",
+      "type": "nullable( DECIMAL(10, 2) )"
+    },
+    {
+      "name": "col_date",
+      "type": "nullable (Date)"
+    },
+    {
+      "name": "col_timestamp",
+      "type": "nullable (TIMESTAMP)"
+    },
+    {
+      "name": "col_uuid",
+      "type": "nullable(uuid)"
+    },
+    {
+      "name": "col_string",
+      "type": "nullable(String)"
+    },
+    {
+      "name": "col_fixed",
+      "type": "nullable(fixed(50))"
+    },
+    {
+      "name": "col_binary",
+      "type": "nullable(binary)"
+    },
+    {
+      "name": "col_list_boolean",
+      "type": "nullable(LIST<Nullable(BOOLEAN)>)"
+    },
+    {
+      "name": "col_list_integer",
+      "type": "nullable(LIST<Nullable(integer)>)"
+    },
+    {
+      "name": "col_list_long",
+      "type": "nullable(LIST<Nullable(long)>)"
+    },
+    {
+      "name": "col_list_float",
+      "type": "nullable(LIST<Nullable(FLOAT)>)"
+    },
+    {
+      "name": "col_list_double",
+      "type": "nullable(LIST<Nullable(DOUBLE)>)"
+    },
+    {
+      "name": "col_list_decimal",
+      "type": "nullable(LIST<Nullable(decimal(32,8))>)"
+    },
+    {
+      "name": "col_list_date",
+      "type": "nullable(LIST<Nullable(DATE)>)"
+    },
+    {
+      "name": "col_list_timestamp",
+      "type": "nullable(LIST<Nullable(timestamp)>)"
+    },
+    {
+      "name": "col_list_uuid",
+      "type": "nullable(LIST<Nullable(uuid)>)"
+    },
+    {
+      "name": "col_list_string",
+      "type": "nullable(LIST<Nullable(string)>)"
+    },
+    {
+      "name": "col_list_fixed",
+      "type": "nullable(LIST<Nullable(fixed(128))>)"
+    },
+    {
+      "name": "col_list_binary",
+      "type": "nullable(LIST<Nullable(binary)>)"
+    },
+    {
+      "name": "col_map",
+      "type": "nullable(MAP<String, nullable(INTEGER)>)"
+    },
+    {
+      "name": "col_struct",
+      "type": "nullable(Struct<field_integer|nullable(integer), field_string|nullable(string), field_timestamp|nullable(timestamp), field_decimal|nullable(decimal(28,6)), field_binary|nullable(binary)>)"
+    },
+    {
+      "name": "col_nestedlist",
+      "type": "nullable(LIST<nullable(MAP<String, nullable(StrucT<field_long|nullable(long), field_string|nullable(string)>)>)>)"
+    },
+    {
+      "name": "col_nestedmap",
+      "type": "nullable(MAP<integer, nullable(LIST<nullable(MAP<String, nullable(Struct<field_boolean|nullable(boolean), field_timestamp|nullable(timestamp)>)>)>)>)"
+    },
+    {
+      "name": "col_nestedstruct",
+      "type": "nullable(Struct<field_list|nullable(LIST<nullable(Struct<field_long|nullable(long)>)>),field_map|nullable(map<string, nullable(Struct<field_date|nullable(date)>)>)>)"
+    }
+  ]
+}

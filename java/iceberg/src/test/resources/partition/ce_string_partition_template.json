@@ -1,0 +1,13 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_string",
+      "type": "nullable(string)"
+    }
+  ],
+  "partitionKeys": [
+    "par_string"
+  ]
+}

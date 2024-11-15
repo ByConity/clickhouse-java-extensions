@@ -1,0 +1,29 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "ps_partkey",
+      "type": "long"
+    },
+    {
+      "name": "ps_suppkey",
+      "type": "long"
+    },
+    {
+      "name": "ps_availqty",
+      "type": "integer"
+    },
+    {
+      "name": "ps_supplycost",
+      "type": "decimal(15, 2)"
+    },
+    {
+      "name": "ps_comment",
+      "type": "string"
+    }
+  ],
+  "schemaProperties": {
+    "write.format.default": "%s"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "p_promo_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "p_promo_id",
+      "type": "Nullable(char(16))"
+    },
+    {
+      "name": "p_start_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "p_end_date_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "p_item_sk",
+      "type": "Nullable(bigint)"
+    },
+    {
+      "name": "p_cost",
+      "type": "Nullable(decimal(15, 2))"
+    },
+    {
+      "name": "p_response_target",
+      "type": "Nullable(int)"
+    },
+    {
+      "name": "p_promo_name",
+      "type": "Nullable(char(50))"
+    },
+    {
+      "name": "p_channel_dmail",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_email",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_catalog",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_tv",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_radio",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_press",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_event",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_demo",
+      "type": "Nullable(char(1))"
+    },
+    {
+      "name": "p_channel_details",
+      "type": "Nullable(varchar(100))"
+    },
+    {
+      "name": "p_purpose",
+      "type": "Nullable(char(15))"
+    },
+    {
+      "name": "p_discount_active",
+      "type": "Nullable(char(1))"
+    }
+  ],
+  "schemaOptions": {
+    "file.format": "%s",
+    "file.compression": "zstd",
+    "bucket": 1
+  }
+}

@@ -1,0 +1,102 @@
+syntax = "proto2";
+
+package DB.Protos.Paimon;
+option java_package = "org.byconity.proto";
+option java_outer_classname = "PaimonMeta";
+
+message ArrayType {
+  required Type elementType = 1;
+}
+
+message BigIntType {}
+
+message BinaryType {
+  required uint64 length = 1;
+}
+
+message BooleanType {}
+
+message CharType {
+  required uint64 length = 1;
+}
+
+message DateType {}
+
+message DecimalType {
+  required uint32 precision = 1;
+  required uint32 scale = 2;
+}
+
+message DoubleType {}
+
+message FloatType {}
+
+message IntType {}
+
+message LocalZonedTimestampType {
+  required uint32 precision = 1;
+}
+
+message MapType {
+  required Type keyType = 1;
+  required Type valueType = 2;
+}
+
+message RowType {
+  repeated Field fields = 1;
+}
+
+message SmallIntType {}
+
+message TimestampType {
+  required uint32 precision = 1;
+}
+
+message TinyIntType {}
+
+message VarBinaryType {
+  required uint64 length = 1;
+}
+
+message VarCharType {
+  required uint64 length = 1;
+}
+
+message Type {
+  required bool is_nullable = 1;
+  optional ArrayType arrayType = 2;
+  optional BigIntType bigIntType = 3;
+  optional BinaryType binaryType = 4;
+  optional BooleanType booleanType = 5;
+  optional CharType charType = 6;
+  optional DateType dateType = 7;
+  optional DecimalType decimalType = 8;
+  optional DoubleType doubleType = 9;
+  optional FloatType floatType = 10;
+  optional IntType intType = 11;
+  optional LocalZonedTimestampType localZonedTimestampType = 12;
+  optional MapType mapType = 13;
+  optional RowType rowType = 14;
+  optional SmallIntType smallIntType = 15;
+  optional TimestampType timestampType = 16;
+  optional TinyIntType tinyIntType = 17;
+  optional VarBinaryType varBinaryType = 18;
+  optional VarCharType varCharType = 19;
+}
+
+message Field {
+  required string name = 1;
+  required Type type = 2;
+}
+
+message Option {
+  required string name = 1;
+  required string value = 2;
+}
+
+message Schema {
+  repeated Field fields = 1;
+  repeated string primary_keys = 2;
+  repeated string partition_keys = 3;
+  repeated Option options = 4;
+}

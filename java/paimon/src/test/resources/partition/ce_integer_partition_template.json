@@ -1,0 +1,28 @@
+{
+  "database": "%s",
+  "table": "%s",
+  "columns": [
+    {
+      "name": "par_tinyint",
+      "type": "NULLABLE(tinyint)"
+    },
+    {
+      "name": "par_smallint",
+      "type": "nullAble(SMALLINT)"
+    },
+    {
+      "name": "par_int",
+      "type": "nullable( Int)"
+    },
+    {
+      "name": "par_bigint",
+      "type": "nullable(BIGinT)"
+    }
+  ],
+  "partitionKeys": [
+    "par_tinyint",
+    "par_smallint",
+    "par_int",
+    "par_bigint"
+  ]
+}
